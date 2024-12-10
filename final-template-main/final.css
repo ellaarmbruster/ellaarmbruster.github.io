@@ -11,7 +11,7 @@
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Georgia', serif;
+	font-family: 'Oswald', serif;
 	background-color: #A6E1FA;
 	color: #00072D;
 	border: 2px solid black;
@@ -19,10 +19,11 @@
 h4 {
 	font-style: italic;
 	font-size: 40px;
-	font-family: 'Georgia', serif;
+	font-family: 'Oswald', serif;
 }
 h3 {
 	font-size: 30px;
+	font-family: 'Oswald', serif;
 }
 p {
 	font-size: 20px;
@@ -35,10 +36,21 @@ img{
 	margin-left: 5%;
 }
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
  .list {
+ 	border: 2px solid darkslategrey;
  	float: none;
  	min-width: 90%;
  	margin-left: 10px;
@@ -49,4 +61,10 @@ img{
  	min-width: 90%;
  	margin-right: 10px;
  }
+
+.footer p { /* This is how you add styles for only the p text within the footer. */
+	background-color: #A6E1FA;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
 }
