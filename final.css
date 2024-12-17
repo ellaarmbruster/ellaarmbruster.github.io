@@ -1,0 +1,99 @@
+/*This is the CSS page for our final template.*/
+
+
+body {
+	background-color: #E4F6FE;
+}
+
+
+.footer p { /* This is how you add styles for only the p text within the footer. */
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.header {
+	height: auto;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Oswald', serif;
+	background-color: #BFE4FA;
+
+
+	
+}
+h4 {
+	font-style: italic;
+	font-size: 20px;
+	font-family: 'Oswald', serif;
+	line-height: ,2;
+}
+h3 {
+	font-size: 30px;
+	font-family: 'Oswald', serif;
+}
+p {
+	font-size: 20px;
+	font-family: 'Times New Roman', serif;
+	line-height: 1.5;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+img{
+	float: middle
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 40%;
+	height: 90%;
+	margin-right:25%;
+	margin-left: 30%;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*Don't worry about this section yet*/
+@media only screen and (max-width: 767px)
+{
+ .list {
+ 	border: 2px solid darkslategrey;
+ 	float: none;
+ 	min-width: 90%;
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ 	margin-top: 30px;
+ }
+
+ iframe {
+    width: 40px;
+    border: none;
+    min-width: 100% !important;
+    height: 700px;
+    box-sizing: border-box;
+    overflow-clip-margin: border-box !important;
+    overflow: clip !important;
+    margin-left: 10px;
+    margin-right: 10px;
+
+ }
+
+ a:link {
+        color: blue;
+    }
+    
+
+footer { /* This is how you add styles for only the p text within the footer. */
+	background-color: #lightblue;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
